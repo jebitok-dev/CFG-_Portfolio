@@ -1,0 +1,114 @@
+.container {
+    display: flex;
+    justify-content: 50%;
+  }
+  
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin: 0.5rem;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+    margin: 0.5rem;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+  
+  a {
+    color: #f54996;
+    text-decoration: none;
+  }
+  
+  img {
+    margin: 0.5rem;
+  }
+  
+  /*
+    Classes
+  */
+  
+  .navigation {
+    background: black;
+    color: #fff;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  
+    /* Example here: https://www.w3schools.com/cssref/css3_pr_box-shadow.asp */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  
+    font-size: 1.2rem;
+  }
+  
+  .navigation a {
+    color: #fff;
+  }
+  
+  .footer {
+    background: #f54996;
+    color: #fff;
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    display: block;
+  }
+  
+  .footer a {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    /* display: inline; */
+  }
+  
+  .color-secondary {
+    color: #f54996;
+  }
+  
+  /*
+    IDs
+  */
+  
+  #active a {
+    border-bottom: 2px solid #f54996;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    body {
+      background-color: #0000ff;
+      font-size: 18px;
+    }
+  
+    header {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    body {
+      background-color: #f54996;
+      font-size: 16px;
+    }
+    .container {
+      display: block;
+      justify-content: 100%;
+    }
+  }
