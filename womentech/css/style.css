@@ -1,3 +1,53 @@
 .rounded {
     width: 200px;
 }
+
+
+.active{
+    color: #E13B63;
+}
+.thirty{
+    margin-left: 200px !important;
+    margin-right: 200px !important;
+    margin-bottom: -50px;
+    z-index: 9;
+    position: fixed !important;
+}
+
+.thirty ul{
+    margin-left: 500px;
+}
+.thirty ul a{
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.thirty ul a:hover{
+    color: #ffffff;
+    border-bottom: 1px solid white;
+}
+
+.carousel-item .in-obj{
+    top: 50% !important;
+    left: 50% !important; 
+    position: absolute !important;
+    transform: translate(-50%, -50%) !important;
+    text-align: center !important;
+    
+}
+
+.carousel-caption h2{
+    color: #ffffff !important;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: poppins;
+}
+
+
+.carousel-caption  p{
+    color: #ffffff !important;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: century gothic;
+
+}
