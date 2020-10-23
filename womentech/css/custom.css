@@ -1,0 +1,31 @@
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  .map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  #subscribe {
+    size: 1.5rem;
+  }
+  #subscribebackground {
+    background-image: "assets/img/resource/computer.png";
+  }
+  #name.form-control[type="email"] {
+    background-color: white;
+  }
+  #name.form-control[type="email"]::placeholder {
+    color: #663b94;
+    size: 1.5rem;
+  }
+  .backgroundHeaderImage {
+    background-image: url("assets/img/resource/computer.png");
+    background-size: cover;
+  }
+  
