@@ -218,6 +218,13 @@ a:hover {
     border-bottom: 2px #726F9F;
   }
 
+  .avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
 @media (max-width: 768px) {
     .carousel-caption h2 {
         font-size: 36px;
