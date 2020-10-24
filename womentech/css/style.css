@@ -1,12 +1,61 @@
-.rounded {
-    width: 200px;
-}
 
-.container {
-    display: flex;
-    justify-content: 50%;
+
+body {
+    font-family: "Jost", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
   }
 
+  header {
+    padding: 1.5rem 0;
+  }
+
+  main {
+      margin: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  
+    margin: 0.75rem 1rem;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+  
+    margin: 0.5rem 1rem;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+  }
+  
+  h5 {
+    color: #726F9F;
+  }
+  
+  p {
+    font-size: 1rem;
+    padding: 0.25rem 0;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+  a {
+    color: #726F9F;
+    text-decoration: none;
+  }
+
+  .form-group .btn {
+        color: #ffffff;
+        background-color: #726F9F;
+  }
+  /* .row  {
+      display: inline-block;
+  } */
 
 .active{
     color: #726F9F;
@@ -152,6 +201,22 @@
     left: 0;
     z-index: 9;
 }
+
+.card {
+    width: 100%;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+
+
+a:hover {
+    color:#726F9F;
+    text-decoration: none;
+    border-bottom: 2px #726F9F;
+  }
 
 @media (max-width: 768px) {
     .carousel-caption h2 {
